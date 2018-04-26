@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/1181954449/springcloud02.git
+          searcha-paths: clientconfig
+        lable: master
+server:
+  port: 8771
